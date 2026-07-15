@@ -1,0 +1,187 @@
+{
+  "prefs": {
+    "public": {
+      "status_limit": 40,
+      "char_limit": 1900,
+      "name_limit": 25,
+      "godword": "IdealBEHHLol",
+      "runlevel": {
+        "godmode": 0,
+        "youtube": 0,
+        "joke": 0,
+        "useredit": 3,
+        "fact": 0,
+        "backflip": 0,
+        "color": 0,
+        "asshole": 0,
+        "triggered": 0,
+        "linux": 0,
+        "pitch": 0,
+        "snap": 0,
+        "speed": 0,
+        "pawn": 0,
+        "bees": 0,
+        "image": 0,
+        "video": 0,
+        "audio": 0,
+        "sad": 0,
+        "vaporwave": 0,
+        "unvaporwave": 0,
+        "name": 0,
+        "playaudio": 3,
+        "stopaudio": 3,
+        "espeak": 3,
+        "owo": 0,
+        "sanitize": 3,
+        "status": 3,
+        "pope": 3,
+        "king": 2
+      },
+      "room_max": 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
+      "owner": null,
+      "pitch": {
+				"max": 400,
+				"min": -50,
+				"default": "random"
+			},
+      "speed": {
+        "max": 275,
+        "min": 125,
+        "default": "random"
+      },
+      "amplitude": {
+         "max": 75,
+         "min": 20,
+         "default": "random"
+       },
+      "defaultName": "Anonymous"
+    },
+    "private": {
+      "char_limit": 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
+      "name_limit": 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
+      "godword": "8749irhtglkjroOIYTURJUG0OQOC09v4n89u89t54:ieourgHUGgu1!058-__47hfGG+_+_89r95ur97468998urijnve8un098nv8HIUEHr8t78fJ87bgfhgtyppo-70-0__-9456fFjGjg_=EU0756!++_-__H",
+      "runlevel": {
+        "godmode": 0,
+        "youtube": 0,
+        "joke": 0,
+        "fact": 0,
+        "backflip": 0,
+        "color": 0,
+        "asshole": 0,
+        "triggered": 0,
+        "linux": 0,
+        "pitch": 0,
+        "speed": 0,
+        "playaudio": 3,
+        "stopaudio": 3,
+        "espeak": 3,
+        "pawn": 0,
+        "useredit": 3,
+        "snap": 0,
+        "bees": 0,
+        "vaporwave": 0,
+        "unvaporwave": 0,
+        "name": 0,
+        "image": 0,
+        "video": 0,
+        "audio": 0,
+        "sad": 0,
+        "owo": 0,
+        "status": 3,
+        "sanitize": 3,
+        "pope": 3,
+        "king": 3
+      },
+      "room_max": 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
+      "owner": null,
+      "pitch": {
+        "max": 125,
+        "min": 15,
+        "default": "random"
+      },
+      "speed": {
+        "max": 275,
+        "min": 125,
+        "default": "random"
+      },
+      "amplitude": {
+         "max": 75,
+         "min": 20,
+         "default": "random"
+       },
+      "defaultName": "Anonymous"
+    }
+  },
+  "consoleOutput": true,
+  "log": {
+    "info": {
+      "level": "debug",
+      "filename": "./logs/info.log",
+      "maxsize": "1024000",
+      "maxFiles": "3",
+    "handleExceptions": true,
+    "humanReadableUnhandledException": true
+    },
+    "error": {
+			"level": "error",
+			"filename": "./logs/error.log",
+			"maxsize": "1024000",
+			"maxFiles": "1000",
+		"handleExceptions": true,
+		"humanReadableUnhandledException": true
+		},
+    "access": {
+			"level": "debug",
+			"filename": "./logs/access.log",
+			"maxsize": "1024000",
+			"maxFiles": "3",
+		"handleExceptions": true,
+		"humanReadableUnhandledException": true
+		}
+  },
+  "Themes": [
+    "default",
+    "vaporwave",
+    "xp", 
+    "bonziverse",
+    "nature",
+    "space",
+    "da_vinci",
+    "aquarium",
+    "dark",
+    "light"
+  ],
+  "bonziColors": [
+    "purple",
+    "blue",
+    "green",
+    "noobgetbleach",
+    "red",
+    "black",
+    "bonzigetbleach",
+    "officercuck",
+    "brown",
+    "pink",
+    "diamond",
+    "penisofkonstantin",
+    "emerald",
+    "peedy",
+    "clippy",
+    "qmark",
+    "gold",
+    "orange",
+    "yellow",
+    "rpc",
+    "magenta",
+    "noob",
+    "doggis"
+  ],
+  "banLength": 1440,
+  "port": 4000,
+  "isReplit": true,
+  "channel": "bonkeyworld-anony-ed",
+	"server_mode": "default",
+  "express": {
+    "serveStatic": true
+  }
+}
