@@ -1008,6 +1008,7 @@ const { join } = require("path");
 
 
 var stickers = {
+	perfection: "perfect alignment"
     sex: "oh hell no! u cant use the sex sticker",
     sad: "so sad",
     bonzi: "BonziBUDDY",
