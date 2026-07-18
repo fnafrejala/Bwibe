@@ -2053,6 +2053,18 @@ var Bonzi = (function () {
                 { type: "anim", anim: "praise_back", ticks: 15 },
                 { type: "text", text: "But I'll do it anyway. Because you want me to. I hope you're happy." },
             ],
+			[
+                { type: "text", text: "Look at me praising!" },
+                { type: "anim", anim: "praise_fwd", ticks: 15 },
+                { type: "text", text: "Praise God!" },
+                { type: "anim", anim: "praise_back", ticks: 15 },
+            ],
+			[
+                { type: "text", text: "Prepare for something everyone never heard of, {NAME}" },
+                { type: "anim", anim: "praise_fwd", ticks: 15 },
+                { type: "text", text: "HUMOUR" },
+                { type: "anim", anim: "praise_back", ticks: 15 },
+            ],
             [{ type: "text", text: "{NAME} used /joke. Whoop-dee-fucking doo." }],
             [{ type: "text", text: "HEY YOU IDIOTS ITS TIME FOR A JOKE" }],
             [
@@ -2060,8 +2072,21 @@ var Bonzi = (function () {
                 { type: "text", text: "No?" },
                 { type: "text", text: "Mute me then. That's your fucking problem." },
             ],
+			[
+                { type: "text", text: "Keep yourself safe, {NAME}" },
+                { type: "text", text: "I'm here to entertain you." },
+            ],
+			[
+			{"type": 0, "text": "I'm not here to entertain you, {NAME}"},
+			{"type": 0, "text": "Sorry."}
+		],
             [{ type: "text", text: "Senpai {NAME} wants me to tell a joke." }],
             [{ type: "text", text: "Time for whatever horrible fucking jokes the creator of this site wrote." }],
+			[{ type: "text", text: "Joke time!" }],
+			[{ type: "text", text: "Prepare." }],
+			[{ type: "text", text: "Prepare to laugh." }],
+			[{ type: "text", text: "Did you type /joke? {NAME} did." }],
+			[{ type: "text", text: "I'm not a joke machine, {NAME}." }],
         ],
         event_list_joke_mid: [
             [
