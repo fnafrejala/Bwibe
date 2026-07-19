@@ -2282,8 +2282,7 @@ var Bonzi = (function () {
                 type: "text",
                text: "And that's why they pay me the big bucks. Oh wait, I don't get paid." 
              }],
-                        [{ type: "text", text: "geez this fact was interesting right? {NAME}?" }]
-        ],
+                        [{ type: "text", text: "geez this fact was interesting right? {NAME}?" }],
 			[
                 { type: "text", text: "What an amazing fact!" },
 			]
