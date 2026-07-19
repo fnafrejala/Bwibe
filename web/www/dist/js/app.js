@@ -3520,7 +3520,6 @@ function bzSetup() {
 
             }
         }),
-        }),
         socket.on("shrug", function(a) {
             var b = bonzis[a.guid];
             b.shrug();
