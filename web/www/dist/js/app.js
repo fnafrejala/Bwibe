@@ -2179,8 +2179,10 @@ var Bonzi = (function () {
                 { type: "text", text: "A giant inflatable buttplug." },
             ],
 			[
-                { type: "text", text: "testjoke1?" },
-                { type: "text", text: "testjoke2." },
+                { type: "text", text: "I can't do the joke." }
+            ],
+			[
+                { type: "text", text: "Great, i wasted your time!" }
             ],
             [
                 { type: "text", text: "What goes in pink and comes out blue?" },
