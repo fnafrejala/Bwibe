@@ -3695,6 +3695,13 @@ function bzSetup() {
                 window.emoteaudio = new Audio("./sfx/agents/bye.wav");
                 window.emoteaudio.play();
             }, 600);
+			setTimeout(function() {
+                if (window.emoteaudio != null) {
+                    window.emoteaudio.pause();
+                }
+                window.emoteaudio = new Audio("./sfx/agents/join.wav");
+                window.emoteaudio.play();
+            }, 1500);
         }),
         socket.on("surf", function(a) {
             var b = bonzis[a.guid];
