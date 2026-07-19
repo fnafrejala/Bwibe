@@ -2076,10 +2076,30 @@ var Bonzi = (function () {
                 { type: "text", text: "Keep yourself safe, {NAME}" },
                 { type: "text", text: "I'm here to entertain you." },
             ],
+			[{
+                type: "text",
+                text: "HEY YOU IDIOTS ITS TIME FOR A JOKE"
+            }],
+			[{
+                type: "text",
+                text: "Mr. {NAME} wants me to tell a joke."
+            }],
 			[
 			{"type": 0, "text": "I'm not here to entertain you, {NAME}"},
 			{"type": 0, "text": "Sorry."}
 		],
+			[
+                { type: "text", text: "Wanna hear a joke for the 3rd time?" },
+                { type: "text", text: "No?" },
+                { type: "text", text: "That's your problem Then I'm Leaving." },
+            ],
+            [
+                { type: "text", text: "Hey guys! Want to hear a joke?" },
+                { type: "text", text: "Yes!" },
+                { type: "text", text: "Okay." },
+            ],
+			[{ type: "text", text: "OK, you'll have to laugh at this one." }],
+            [{ type: "text", text: "Ready for some classic comedy?" }],
             [{ type: "text", text: "Senpai {NAME} wants me to tell a joke." }],
             [{ type: "text", text: "Time for whatever horrible fucking jokes the creator of this site wrote." }],
 			[{ type: "text", text: "Joke time!" }],
@@ -2087,6 +2107,9 @@ var Bonzi = (function () {
 			[{ type: "text", text: "Prepare to laugh." }],
 			[{ type: "text", text: "Did you type /joke? {NAME} did." }],
 			[{ type: "text", text: "I'm not a joke machine, {NAME}." }],
+			[ { type: "text", text: "Comedic subroutines engaged. Prepare to breathe air slightly faster through your nose." } ],
+            [ { type: "text", text: "The {COLOR} show is about to begin! Hold onto your pixels." } ],
+            [ { type: "text", text: "Error 404: Humor not found. Just kidding, I've got plenty of 'em." } ],
         ],
         event_list_joke_mid: [
             [
@@ -2108,13 +2131,59 @@ var Bonzi = (function () {
                 { type: "anim", anim: "shrug_back", ticks: 15 },
                 { type: "text", text: "What were you expecting? A dick joke? You're a sick fuck." },
             ],
+			 [{
+                type: "text",
+                text: "Why did the chicken cross the road?"
+            }, {
+                 type: "anim",
+                 anim: "shrug_back",
+                 ticks: 15
+             },
+             {
+                type: "text",
+                text: "Ok, let's get serious. I'll let you in on a little secret the feds don't want you knowing."
+            }, {
+                type: "text",
+                text: "Phones have a secret Instant Charging feature, you can enable it by microwaving your phone."
+            }, {
+                type: "text",
+                text: "Or charge it. Don't microwave your phone or it will explode!"
+            }],
+                [
+                  { type: "text", text: "Why did the programmer quit his job?" },
+                  { type: "text", text: "Because he didn't get arrays." }
+                ],
+                [
+                  { type: "text", text: "What do you call a belt made of watches?" },
+                  { type: "text", text: "A waist of time." }
+                ],
+                [
+                  { type: "text", text: "I'm reading a book on anti-gravity." },
+                  { type: "text", text: "It's impossible to put down!" }
+                ],
+                [
+                  { type: "text", text: "Parallel lines have so much in common." },
+                  { type: "text", text: "It's a shame they'll never meet." }
+                ],
+                [
+                  { type: "text", text: "What's the difference between a snowman and a snowwoman?" },
+                  { type: "text", text: "Snowballs." }
+                ],
+                [
+                  { type: "text", text: "I'm on a whiskey diet." },
+                  { type: "text", text: "I've lost three days already." }
+                ],
             [
                 { type: "text", text: "What is in the middle of Paris?" },
                 { type: "text", text: "A giant inflatable buttplug." },
             ],
+			[
+                { type: "text", text: "TESTJOKE1?" },
+                { type: "text", text: "TESTJOKE2." },
+            ],
             [
                 { type: "text", text: "What goes in pink and comes out blue?" },
-                { type: "text", text: "Sonic's asshole." },
+                { type: "text", text: "Sonic's WOAH WOAH WOAH WHAT!" },
             ],
             [
                 { type: "text", text: "What type of water won't freeze?" },
@@ -2157,6 +2226,17 @@ var Bonzi = (function () {
                 { type: "text", text: "pls respond", say: "please respond" },
             ],
             [{ type: "text", text: "Maybe I'll keep my day job, {NAME}. Patreon didn't accept me." }],
+			[{ type: "text", text: "NOW LAUGH!" }],
+			[{ type: "text", text: "I hope you're offended." }],
+			[{ type: "text", text: "I hope you laughed at that joke, {NAME}." }],
+			[{ type: "text", text: "I hope you laughed." }],
+			[{ type: "text", text: "Laugh. just laugh." }],
+			[{ type: "text", text: "Now you can laugh." }],
+			[{ type: "text", text: "Haha! so funny!" }],
+			[{ type: "text", text: "Now can you laugh at my jokes?" }],
+			[{ type: "text", text: "Now, Thats all for the joke! now laugh!" }],
+			[{ type: "text", text: "Now you can laugh." }],
+			[{ type: "text", text: "Now you can laugh." }],
             [
                 { type: "text", text: "Laughter is the best medicine!" },
                 { type: "text", text: "Apart from meth." },
@@ -2166,7 +2246,14 @@ var Bonzi = (function () {
                 { type: "text", text: "Help! I'm being oppressed!" },
             ],
         ],
-        event_list_fact_open: [[{ type: "html", text: "Hey kids, it's time for a Fun Fact&reg;!", say: "Hey kids, it's time for a Fun Fact!" }]],
+        event_list_fact_open: [ 
+			[{ type: "html", text: "Hey kids, it's time for a Fun Fact&reg;!", say: "Hey kids, it's time for a Fun Fact!" }],
+			[{ type: "text", text: "Did you type /fact? {NAME} did." }],
+            [ { type: "text", text: "Fact check! {NAME} is currently used /fact." } ],
+            [ { type: "text", text: "Welcome to the Fact of Bonzi. Fun fact is power!" } ],
+            [ { type: "text", text: "Prepare your earballs, I'm about to drop some fact." } ]
+
+		],
         event_list_fact_mid: [
             [
                 { type: "anim", anim: "earth_fwd", ticks: 15 },
@@ -2183,6 +2270,20 @@ var Bonzi = (function () {
 			[
 				{ type: "text", text: "o gee whilickers wasn't that sure interesting huh" }
 			],
+			[{
+                type: "text",
+               text: "The more you know, the more you realize you don't know anything." 
+             }],
+            [{
+                type: "text",
+               text: "Stay curious, or don't. I'm a {NAME}, not a thing." 
+             }],
+            [{
+                type: "text",
+               text: "And that's why they pay me the big bucks. Oh wait, I don't get paid." 
+             }],
+                        [{ type: "text", text: "geez this fact was interesting right? {NAME}?" }]
+        ],
 			[
                 { type: "text", text: "What an amazing fact!" },
 			]
