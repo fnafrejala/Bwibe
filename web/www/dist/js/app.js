@@ -2228,6 +2228,14 @@ var Bonzi = (function () {
                 { type: "text", text: "Do I amuse you, {NAME}? Am I funny? Do I make you laugh?" },
                 { type: "text", text: "pls respond", say: "please respond" },
             ],
+			[
+                { type: "text", text: "{NAME} Did you laugh at this joke? When i told this joke to someone, they fell out of their window laughing! I wasn't supposed to make them laugh tho." },
+                { type: "text", text: "This joke was unfunny to me, but funny to him." }
+            ],
+            [{ type: "text", text: "Where do I come up with these? My script? I'm not sure." }],
+            [
+                { type: "text", text: "Am i a joke to you {NAME}? I am a user I jump around on the monkey bars yeah huh?" },
+            ],
             [{ type: "text", text: "Maybe I'll keep my day job, {NAME}. Patreon didn't accept me." }],
 			[{ type: "text", text: "NOW LAUGH!" }],
 			[{ type: "text", text: "I hope you're offended." }],
