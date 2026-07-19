@@ -2148,38 +2148,39 @@ var Bonzi = (function () {
             }, {
                 type: "text",
                 text: "Or charge it. Don't microwave your phone or it will explode!"
-            }],
+            },
+			 ],
                 [
                   { type: "text", text: "Why did the programmer quit his job?" },
-                  { type: "text", text: "Because he didn't get arrays." }
+                  { type: "text", text: "Because he didn't get arrays." },
                 ],
                 [
                   { type: "text", text: "What do you call a belt made of watches?" },
-                  { type: "text", text: "A waist of time." }
+                  { type: "text", text: "A waist of time." },
                 ],
                 [
                   { type: "text", text: "I'm reading a book on anti-gravity." },
-                  { type: "text", text: "It's impossible to put down!" }
+                  { type: "text", text: "It's impossible to put down!" },
                 ],
                 [
                   { type: "text", text: "Parallel lines have so much in common." },
-                  { type: "text", text: "It's a shame they'll never meet." }
+                  { type: "text", text: "It's a shame they'll never meet." },
                 ],
                 [
                   { type: "text", text: "What's the difference between a snowman and a snowwoman?" },
-                  { type: "text", text: "Snowballs." }
+                  { type: "text", text: "Snowballs." },
                 ],
                 [
                   { type: "text", text: "I'm on a whiskey diet." },
-                  { type: "text", text: "I've lost three days already." }
+                  { type: "text", text: "I've lost three days already." },
                 ],
             [
                 { type: "text", text: "What is in the middle of Paris?" },
                 { type: "text", text: "A giant inflatable buttplug." },
             ],
 			[
-                { type: "text", text: "TESTJOKE1?" },
-                { type: "text", text: "TESTJOKE2." },
+                { type: "text", text: "testjoke1?" },
+                { type: "text", text: "testjoke2." },
             ],
             [
                 { type: "text", text: "What goes in pink and comes out blue?" },
@@ -2235,8 +2236,8 @@ var Bonzi = (function () {
 			[{ type: "text", text: "Haha! so funny!" }],
 			[{ type: "text", text: "Now can you laugh at my jokes?" }],
 			[{ type: "text", text: "Now, Thats all for the joke! now laugh!" }],
-			[{ type: "text", text: "Now you can laugh." }],
-			[{ type: "text", text: "Now you can laugh." }],
+			[{ type: "text", text: "That's All Folks!" }],
+			[{ type: "text", text: "The Joke's Done! Now you can laugh." }],
             [
                 { type: "text", text: "Laughter is the best medicine!" },
                 { type: "text", text: "Apart from meth." },
