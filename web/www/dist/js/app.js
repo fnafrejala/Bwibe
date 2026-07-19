@@ -2284,7 +2284,7 @@ var Bonzi = (function () {
              }],
                         [{ type: "text", text: "geez this fact was interesting right? {NAME}?" }],
 			[
-                { type: "text", text: "What an amazing fact!" },
+                { type: "text", text: "What an amazing fact!" }
 			]
 		],
         event_list_behhfact_open: [[{ type: "html", text: "Hey kids, it's time for a BEHH!", say: "Hey kids, it's time for a BEHH" }]],
