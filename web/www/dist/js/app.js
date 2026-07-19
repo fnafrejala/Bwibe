@@ -2240,6 +2240,9 @@ var Bonzi = (function () {
 			[{ type: "text", text: "Now, Thats all for the joke! now laugh!" }],
 			[{ type: "text", text: "That's All Folks!" }],
 			[{ type: "text", text: "The Joke's Done! Now you can laugh." }],
+			[{ type: "text", text: "I'm here until the server crashes. Don't forget to tip your browser." }],
+            [{ type: "text", text: "That joke was so good I might just uninstall myself." }],
+            [{ type: "text", text: "I'll be here all week. Unfortunately." }],
             [
                 { type: "text", text: "Laughter is the best medicine!" },
                 { type: "text", text: "Apart from meth." },
