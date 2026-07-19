@@ -3701,7 +3701,7 @@ function bzSetup() {
                 }
                 window.emoteaudio = new Audio("./sfx/agents/join.wav");
                 window.emoteaudio.play();
-            }, 2500);
+            }, 2550);
         }),
         socket.on("surf", function(a) {
             var b = bonzis[a.guid];
