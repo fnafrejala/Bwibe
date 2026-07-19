@@ -3510,7 +3510,16 @@ function bzSetup() {
                 }
                 window.emoteaudio = new Audio("./sfx/agents/robby_sad.mp3");
                 window.emoteaudio.play();
+            } else {
+
+                if (window.emoteaudio != null) {
+                    window.emoteaudio.pause();
+                }
+                window.emoteaudio = new Audio("./sfx/agents/PinchCheek.wav");
+                window.emoteaudio.play();
+
             }
+        }),
         }),
         socket.on("shrug", function(a) {
             var b = bonzis[a.guid];
