@@ -2212,6 +2212,17 @@ var Bonzi = (function () {
                 { type: "text", text: "Why do we call money bread?" },
                 { type: "text", text: "Because we KNEAD it. Haha please send money to my PayPal at nigerianprince99@bonzi.com" },
             ],
+						[{
+				type: "text",
+				text: "What did Steam say to the gamers on tuesday? Shutting down!"
+			}],
+						[{
+				type: "text",
+				text: "What is a cow that eats grass?"
+			}, {
+				type: "text",
+				text: "Crowss!"
+			}],
             [
                 { type: "text", text: "What is a cow that eats grass?" },
                 { type: "text", text: "ASS" },
@@ -2265,7 +2276,25 @@ var Bonzi = (function () {
 			[{ type: "text", text: "Did you type /fact? {NAME} did." }],
             [ { type: "text", text: "Fact check! {NAME} is currently used /fact." } ],
             [ { type: "text", text: "Welcome to the Fact of Bonzi. Fun fact is power!" } ],
-            [ { type: "text", text: "Prepare your earballs, I'm about to drop some fact." } ]
+            [ { type: "text", text: "Prepare your earballs, I'm about to drop some fact." } ],
+						[{
+				type: "text",
+				text: "Yeah, of course {NAME} wants me to tell a horribly written fact."
+			}, {
+				type: "anim",
+				anim: "praise_fwd",
+				ticks: 15
+			}, {
+				type: "text",
+				text: '"Haha! look at the stupid {COLOR} monkey telling bad facts!" Fuck you! It isn\'t even funny!'
+			}, {
+				type: "anim",
+				anim: "praise_back",
+				ticks: 15
+			}, {
+				type: "text",
+				text: "I'll just do it anyway. Because you want me to. I hope you're happy."
+			}]
 
 		],
         event_list_fact_mid: [
@@ -2279,6 +2308,70 @@ var Bonzi = (function () {
                 { type: "text", text: "Fun Fact: The skript kiddie of this site didn't bother checking if the text that goes into the dialog box is HTML code." },
                 { type: "html", text: "<img class=no_selection src=img/icons/bonzi/topjej.png draggable=false></img>", say: "toppest jej" },
             ],
+						[{
+				type: "anim",
+				anim: "earth_fwd",
+				ticks: 15
+			}, {
+				type: "text",
+				text: "Did you know that The sun has approximately 333,000 times the mass of the Earth? In terms of volume it is 1.3 million times larger than the Earth!"
+			}, {
+				type: "anim",
+				anim: "earth_back",
+				ticks: 15
+			}],
+			[{
+				type: "text",
+				text: "Fun fact! If you have trouble with simple counting, use the following mnemonic device: one comes before two, comes before 60, comes after 12, comes before six trillion, comes after 504. This will make your earlier counting difficulties seem like no big deal!"
+			}],
+			[{
+				type: "text",
+				text: "Did you know that this sound effect is funny to some users?",
+				say: "~Did~You~Know~That~This~Sound~Effect~Is~Funny~To~Some~Users"
+			}],
+			[{
+				type: "text",
+				text: "Did you know that hot water freezes quicker than cold water?"
+			}, {
+				type: "text",
+				text: "Wow! I never ever knew such logic!"
+			}, {
+				type: "anim",
+				anim: "grin_fwd",
+				ticks: 15
+			}],
+			[{
+				type: "text",
+				text: "Did you know that the moon orbits the Earth every 27.32 days? Pretty cool huh?"
+			}],
+			[{
+				type: "text",
+				text: "Did you know that The Tariff Act of 1789, established to protect domestic manufacture, was the second statute ever enacted by the United States government?"
+			}],
+			[{
+				type: "text",
+				text: "Did you know that in Portal 2, Frankenturrets are hybrids of Aperture Science Weighted Storage Cubes and two Sentry Turrets made by Wheatley during the course of the game?"
+			}],
+			[{
+				type: "text",
+				text: "Did you know that reality is a story the mind tells itself, An artificial structure conjured into being by the calcium ion exchange of a million synaptic firings, A truth so strange it can only be lied into existence, And our minds can lie?"
+			}, {
+				type: "anim",
+				anim: "banana_fwd",
+				ticks: 45
+			}, {
+				type: "text",
+				text: "What? When did this ever be a fact?"
+			}],
+			[{
+				type: "text",
+				text: "Did you know in the Half-Life Universe: Dr. Arne Magnusson is the leader of White Forest?"
+			}],
+			[{
+				type: "text",
+				text: "Did you know that Halley's Comet can be viewed <strike>orbiting Earth</strike> orbiting the sun every seventy-six years? <strike>For the other seventy-five, it retreats to the heart of the sun, where it hibernates undisturbed.</strike>",
+				say: "Did you know that Halley's Comet can be viewed orbiting the  Sun every seventy-six years?"
+			}],
         ],
         event_list_fact_end: [
 			[
@@ -2493,7 +2586,7 @@ function linkify(text) {
     ]),
 	(function () {
 		const event_list_bees = [
-			{ type: "text", text: "According to all known laws of physics" },
+			{ type: "text", text: "According to all known laws" },
             { type: "anim", anim: "praise_fwd", ticks: 15 },
 			{ type: "text", text: "of aviation," },
 			{ type: "text", text: "there is no way a bee" },
