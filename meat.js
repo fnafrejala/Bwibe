@@ -1008,6 +1008,17 @@ const { join } = require("path");
 
 
 var stickers = {
+	"404":  "page not found",
+	counterflip: "fuck you too",
+	high: "i'm so high right now",
+	imcrinewhatisthis: "i'm crine",
+	succes: "succes",
+	fai: "fai",
+	progres: "progrez",
+	wate: "wate",
+	winne: "win",
+	cr6: "see are 6",
+	doggis: "hotdoggis",
     sex: "the sex sticker has been removed",
     sad: "so sad",
     bonzi: "BonziBUDDY",
@@ -1025,7 +1036,7 @@ var stickers = {
     big_bonzi: "you picked the wrong room id fool!",
     lol: "lol",
     flip: "fuck you",
-    sans: "fuck you",
+    sans: "your gonna have a bad time",
     crybaby: "crybaby",
     perfect: "ahh, perfect!",
     ideal: "itz ideal"
