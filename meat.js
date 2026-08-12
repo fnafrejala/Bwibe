@@ -1025,6 +1025,7 @@ var stickers = {
     bonzi: "BonziBUDDY",
     host: "host is a bathbomb",
     spook: "ew im spooky",
+	null: "Oh jeepers! You found me! Good job I'm glad you found me...",
     forehead: "you have a big forehead",
     ban: "i will ban you so hard right now",
     flatearth: "this is true, and you cant change my opinion loser",
