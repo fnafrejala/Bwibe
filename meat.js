@@ -1008,6 +1008,7 @@ const { join } = require("path");
 
 
 var stickers = {
+	"3am": "oh boy, 3AM!",
 	"404":  "page not found",
 	counterflip: "fuck you too",
 	high: "i'm so high right now",
