@@ -1019,6 +1019,7 @@ var stickers = {
 	winne: "win",
 	cr6: "see are 6",
 	doggis: "hotdoggis",
+	fortnite: { file: "/web/www/img/icons/stickers/fortnite.gif", say: "number 1 victory royale" },
     sex: "the sex sticker has been removed",
     sad: "so sad",
     bonzi: "BonziBUDDY",
