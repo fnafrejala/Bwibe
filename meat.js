@@ -1033,6 +1033,7 @@ var stickers = {
     topjej: "toppest jej",
     cyan: "cyan is yellow",
     no: "fuck no",
+	car: "*car crashes sound effect*",
     bye: "bye i'm fucking leaving",
     kiddie: "the kiddie sticker has been removed",
     big_bonzi: "you picked the wrong room id fool!",
