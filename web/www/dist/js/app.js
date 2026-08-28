@@ -2195,7 +2195,8 @@ var Bonzi = (function () {
                 ],
             [
                 { type: "text", text: "What is in the middle of Paris?" },
-                { type: "text", text: "A giant inflatable behhplug." },
+                { type: "text", text: "Île de la Cité, the island in the middle of the Seine.", 
+				 say: "il da la see tay, the island in the middle of the sen" },
             ],
 			[
                 { type: "text", text: "I can't do the joke." }
