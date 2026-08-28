@@ -2225,8 +2225,16 @@ var Bonzi = (function () {
                 { type: "text", text: "A woman." },
             ],
             [
+                { type: "text", text: "What do you call a man who doesn't bathe?" },
+                { type: "text", text: "A dirty man." },
+            ],
+            [
+                { type: "text", text: "What do you call a joke without a punchline?" },
+                { type: "text", text: "Silence" },
+            ],
+            [
                 { type: "text", text: "How do you get water in watermelons?" },
-                { type: "text", text: "Cum in them." },
+                { type: "text", text: "Water doesnt exist, Only melons do! But why is it called Watermelon you may ask? Because it's a joke! Water exists." },
             ],
             [
                 { type: "text", text: "Why do we call money bread?" },
@@ -2243,9 +2251,28 @@ var Bonzi = (function () {
 				type: "text",
 				text: "Crowss!"
 			}],
+			[{
+				type: "text",
+				text: "Why does kids iPads has taken?"
+			}, {
+				type: "text",
+				text: "Because kids rage so hard when their ipad got taken away!"
+			}],
+			[{
+				type: "text",
+				text: "Why does kids has vape?"
+			}, {
+				type: "text",
+				text: "Because they secretly used it to Dads bedroom!"
+			}],
             [
                 { type: "text", text: "What is a cow that eats grass?" },
                 { type: "text", text: "ASS" },
+                { type: "text", text: "I'm a comedic genius, I know." },
+            ],
+            [
+                { type: "text", text: "What do you call a sleeping dinosaur?" },
+                { type: "text", text: "A dino-snore!", say: "A dyno snore!" },
                 { type: "text", text: "I'm a comedic genius, I know." },
             ],
 			[
