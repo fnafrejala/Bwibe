@@ -2326,7 +2326,7 @@ var Bonzi = (function () {
 			},
 			{
 				type: "text",
-				text: "PENIS!"
+				text: "BENIS!"
 			},
 			{
 				type: "text",
