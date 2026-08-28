@@ -2123,7 +2123,7 @@ var Bonzi = (function () {
 				type: "anim",
 				anim: "grin_fwd",
 				ticks: 15
-			}
+			},
 		],
         ],
         event_list_joke_mid: [
@@ -2195,7 +2195,7 @@ var Bonzi = (function () {
                 ],
             [
                 { type: "text", text: "What is in the middle of Paris?" },
-                { type: "text", text: "Île de la Cité, the island in the middle of the Seine.", say: "il da la see tay, the island in the middle of the sen" },
+                { type: "text", text: "A giant inflatable behhplug." },
             ],
 			[
                 { type: "text", text: "I can't do the joke." }
@@ -2433,13 +2433,12 @@ var Bonzi = (function () {
 			},
 			{
 				type: "text",
-				text: ">NOOOOOO THEY PAY ME TO DO THIS THOUGH, I TOTALLY BELIEVE THAT I WILL GET PAID MINIMUM WAGE JUST TO APPROVE IMAGES ON THIS SITE", say: "NOOOOOO THEY PAY ME TO DO THIS THOUGH, I TOTALLY BELIEVE THAT I WILL GET PAID MINIMUM WAGE JUST TO APPROVE IMAGES ON THIS SITE"
-			},
+				text: "NOOOOOO THEY PAY ME TO DO THIS THOUGH, I TOTALLY BELIEVE THAT I WILL GET PAID MINIMUM WAGE JUST TO APPROVE IMAGES ON THIS SITE"},
 			{
 				type: "text",
 				text: "Geg. You will never be paid.",
 				say: "Kek. You will never be paid."
-			}
+			},
 		], [
 			{
 				type: "text",
@@ -2456,7 +2455,7 @@ var Bonzi = (function () {
 			{
 				type: "text",
 				text: "Oh wow, you actually learned something from this feature? PANIC! AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			}
+			},
 		],
 						[{
 				type: "anim",
