@@ -2154,10 +2154,14 @@ var Bonzi = (function () {
                   { type: "text", text: "Why did the programmer quit his job?" },
                   { type: "text", text: "Because he didn't get arrays." },
                 ],
-                [
-                  { type: "text", text: "What do you call a belt made of watches?" },
-                  { type: "text", text: "A waist of time." },
-                ],
+	                [
+	                  { type: "text", text: "What do you call a belt made of watches?" },
+	                  { type: "text", text: "A waist of time." },
+	                ],
+			[
+	                  { type: "text", text: "What did Harry Potter say the gas station?" },
+	                  { type: "text", text: "Expensive petroleum." },
+	                ],
                 [
                   { type: "text", text: "I'm reading a book on anti-gravity." },
                   { type: "text", text: "It's impossible to put down!" },
