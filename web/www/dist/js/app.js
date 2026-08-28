@@ -2085,8 +2085,8 @@ var Bonzi = (function () {
                 text: "Mr. {NAME} wants me to tell a joke."
             }],
 			[
-			{"type": "text": "I'm not here to entertain you, {NAME}"},
-			{"type": "text": "Sorry."},
+			{"type": "text", text: "I'm not here to entertain you, {NAME}"},
+			{"type": "text", text: "Sorry."},
 		],
 			[
                 { type: "text", text: "Wanna hear a joke for the 3rd time?" },
