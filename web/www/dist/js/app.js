@@ -2085,8 +2085,8 @@ var Bonzi = (function () {
                 text: "Mr. {NAME} wants me to tell a joke."
             }],
 			[
-			{"type": 0, "text": "I'm not here to entertain you, {NAME}"},
-			{"type": 0, "text": "Sorry."}
+			{"type": "text": "I'm not here to entertain you, {NAME}"},
+			{"type": "text": "Sorry."},
 		],
 			[
                 { type: "text", text: "Wanna hear a joke for the 3rd time?" },
@@ -2110,6 +2110,21 @@ var Bonzi = (function () {
 			[ { type: "text", text: "Comedic subroutines engaged. Prepare to breathe air slightly faster through your nose." } ],
             [ { type: "text", text: "The {COLOR} show is about to begin! Hold onto your pixels." } ],
             [ { type: "text", text: "Error 404: Humor not found. Just kidding, I've got plenty of 'em." } ],
+			[
+		    {
+				type: "text",
+				text: "OH MUH GOD IT'S THE BITCHASS {COLOR} MONKEY ABOUT TO TELL JOK-"
+			},
+			{
+				type: "text",
+				text: "ACK!"
+			},
+			{
+				type: "anim",
+				anim: "grin_fwd",
+				ticks: 15
+			}
+		],
         ],
         event_list_joke_mid: [
             [
@@ -2180,7 +2195,7 @@ var Bonzi = (function () {
                 ],
             [
                 { type: "text", text: "What is in the middle of Paris?" },
-                { type: "text", text: "A giant inflatable buttplug." },
+                { type: "text", text: "Île de la Cité, the island in the middle of the Seine.", say: "il da la see tay, the island in the middle of the sen" },
             ],
 			[
                 { type: "text", text: "I can't do the joke." }
@@ -2232,6 +2247,81 @@ var Bonzi = (function () {
                 { type: "text", text: "ASS" },
                 { type: "text", text: "I'm a comedic genius, I know." },
             ],
+			[
+			{
+				type: "text",
+				text: "Get ready, as I am about to tell the best joke in 3... 2... 1..."
+			},
+			{
+				type: "text",
+				text: "AAAAAAAAAAAAAAA! IT'S NOTHING!"
+			},
+			{
+				type: "text",
+				text: "I'm a comedic genius, I know."
+			},
+		],
+			[
+			{
+				type: "text",
+				text: "I'm about to beat every person in the world that can make comedy. Get ready for this one."
+			},
+			{
+				type: "text",
+				text: "Are you ready? 3, 2, 1."
+			},
+			{
+				type: "text",
+				text: "(BONZI WAS HARDBANNED FOR THIS MESSAGE)"
+			},
+			{
+				type: "text",
+				text: "I played a joke on you! In a joke. Get it?"
+			},
+			{
+				type: "text",
+				text: "...",
+				say: "Pretend that I'm actually dot dot dotting in here, it would be fucking embarrasing for me if I got found out this way."
+			},
+			{
+				type: "text",
+				text: "Okay, it's time. Are you ready?"
+			},
+			{
+				type: "text",
+				text: "*gasp*",
+				say: "Also pretend I'm gasping here. Yes, I'm roleplaying to you, in a joke. That's pretty embarrasing now is it?"
+			},
+			{
+				type: "text",
+				text: "Okay, now I'm actually going to say it. GET READY."
+			},
+			{
+				type: "text",
+				text: "PENIS!"
+			},
+			{
+				type: "text",
+				text: "Come on. Laugh. I know you want to laugh. I can see you laughing at that screen. Don't lie."
+			},
+			{
+				type: "text",
+				text: "Okay, I'll admit, that one was pretty fucking stupid. I'm sorry."
+			},
+			{
+				type: "text",
+				text: "Not sorry for wasting your time. Not sorry for making an unfunny ass joke."
+			},
+			{
+				type: "text",
+				text: "Sorry for making you realize that you don't know true comedy. If you don't, you're a fucking retard. Thanks for nothing."
+			},
+			{
+				type: "anim",
+				anim: "backflip",
+				ticks: 12
+			}
+		],
         ],
         event_list_joke_end: [
             [
@@ -2274,6 +2364,16 @@ var Bonzi = (function () {
                 { type: "text", text: "Don't judge me on my sense of humor alone." },
                 { type: "text", text: "Help! I'm being oppressed!" },
             ],
+			[
+		    {
+				type: "text",
+				text: "If you're going to complain about the inappropriate jokes, then you should complain to every person that uses /joke."
+			},
+			{
+				type: "text",
+				text: "They make the same jokes as me, you fucking retard."
+			}
+		],
         ],
         event_list_fact_open: [ 
 			[{ type: "html", text: "Hey kids, it's time for a Fun Fact&reg;!", say: "Hey kids, it's time for a Fun Fact!" }],
@@ -2312,6 +2412,52 @@ var Bonzi = (function () {
                 { type: "text", text: "Fun Fact: The skript kiddie of this site didn't bother checking if the text that goes into the dialog box is HTML code." },
                 { type: "html", text: "<img class=no_selection src=img/icons/bonzi/topjej.png draggable=false></img>", say: "toppest jej" },
             ],
+			[
+			{
+				type: "anim",
+				anim: "shrug_fwd",
+				ticks: 15
+			},
+			{
+				type: "text",
+				text: "Earlier today, I found out how to make jannies clitty leak. Works all the time."
+			},
+			{
+				type: "text",
+				text: "Tell them they do it for free."
+			},
+			{
+				type: "anim",
+				anim: "shrug_back",
+				ticks: 15
+			},
+			{
+				type: "text",
+				text: ">NOOOOOO THEY PAY ME TO DO THIS THOUGH, I TOTALLY BELIEVE THAT I WILL GET PAID MINIMUM WAGE JUST TO APPROVE IMAGES ON THIS SITE", say: "NOOOOOO THEY PAY ME TO DO THIS THOUGH, I TOTALLY BELIEVE THAT I WILL GET PAID MINIMUM WAGE JUST TO APPROVE IMAGES ON THIS SITE"
+			},
+			{
+				type: "text",
+				text: "Geg. You will never be paid.",
+				say: "Kek. You will never be paid."
+			}
+		], [
+			{
+				type: "text",
+				text: "Joseph Judge was too lazy to write facts, so he just wrote 2."
+			},
+			{
+				type: "text",
+				text: "That's why you only see the two, same, boring facts."
+			},
+			{
+				type: "text",
+				text: "Apparently every other site owner felt the same, so they didn't write any facts. Go call them out for being lazy."
+			},
+			{
+				type: "text",
+				text: "Oh wow, you actually learned something from this feature? PANIC! AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			}
+		],
 						[{
 				type: "anim",
 				anim: "earth_fwd",
