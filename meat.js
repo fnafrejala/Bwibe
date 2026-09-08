@@ -1008,6 +1008,7 @@ const { join } = require("path");
 
 
 var stickers = {
+	"lmao": "lmao, That was so fucking funny lmao",
 	"absolute-cinema": "absolute cinema!",
 	"absolute-speaki": "absolute speaki!",
 	"3am": "oh boy, 3AM!",
