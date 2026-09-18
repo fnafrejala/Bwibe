@@ -2078,6 +2078,10 @@ var Bonzi = (function () {
             ],
 			[{
                 type: "text",
+                text: "{NAME} Joke Corner!"
+            }],
+			[{
+                type: "text",
                 text: "HEY YOU IDIOTS ITS TIME FOR A JOKE"
             }],
 			[{
@@ -2269,6 +2273,11 @@ var Bonzi = (function () {
                 { type: "text", text: "What is a cow that eats grass?" },
                 { type: "text", text: "ASS" },
                 { type: "text", text: "I'm a comedic genius, I know." },
+            ],
+			[
+                { type: "text", text: "What is green and has wheels?" },
+                { type: "text", text: "GRASS" },
+                { type: "text", text: "I lied about the wheels." },
             ],
             [
                 { type: "text", text: "What do you call a sleeping dinosaur?" },
