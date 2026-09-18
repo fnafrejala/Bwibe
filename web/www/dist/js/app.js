@@ -2224,6 +2224,10 @@ var Bonzi = (function () {
                 { type: "text", text: "What did the digital clock say to the grandfather clock?" },
                 { type: "text", text: "Suck my clock." },
             ],
+			[
+                { type: "text", text: "What do you call a well balanced horse?" },
+                { type: "text", text: "Stable." },
+            ],
             [
                 { type: "text", text: "What do you call a man who shaves 10 times a day?" },
                 { type: "text", text: "A woman." },
