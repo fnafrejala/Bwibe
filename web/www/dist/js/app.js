@@ -3480,6 +3480,10 @@ function bzSetup() {
             var b = bonzis[data.guid];
             (b.rng = new Math.seedrandom(data.rng)), b.cancel(), b.joke();
         }),
+        socket.on("joke2", function (data) {
+            var b = bonzis[data.guid];
+            (b.rng = new Math.seedrandom(data.rng)), b.cancel(), b.joke2();
+        }),
         socket.on("behh", function (data) {
             var b = bonzis[data.guid];
             (b.rng = new Math.seedrandom(data.rng)), b.cancel(), b.behh();
@@ -4157,6 +4161,10 @@ function bzSetup() {
         socket.on("pawn", function (data) {
             var b = bonzis[data.guid];
             b.cancel(), b.runSingleEvent(b.data.event_list_pawn);
+        }),
+        socket.on("bosnia", function (data) {
+            var b = bonzis[data.guid];
+            b.cancel(), b.runSingleEvent(b.data.event_list_bosnia);
         }),
         socket.on("bees", function (data) {
             var b = bonzis[data.guid];
