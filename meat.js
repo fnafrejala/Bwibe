@@ -1227,6 +1227,12 @@ let userCommands = {
             rng: Math.random()
         });
     },
+    "joke2": function() {
+        this.room.emit("joke2", {
+            guid: this.guid,
+            rng: Math.random()
+        });
+    },
 	  behhjoke: function() {
 		this.room.emit("behh", {
 		  guid: this.guid,
@@ -2158,6 +2164,7 @@ let userCommands = {
     },
     "linux": "passthrough",
     "pawn": "passthrough",
+	"bosnia": "passthrough",
     "bees": "passthrough",
 	
   setbonzitvvid: function(vidRaw) {
