@@ -2587,7 +2587,7 @@ var Bonzi = (function () {
                    },
                    {
                        type: "html",
-                       text: "<img src='./img/misc/topjej.png'></img>",
+                       text: "<img class=no_selection src=img/icons/bonzi/topjej.png draggable=false></img>",
                        say: "toppest jej",
                    },
                 ],
