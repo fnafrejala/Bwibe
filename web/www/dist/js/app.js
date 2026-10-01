@@ -2792,11 +2792,11 @@ function linkify(text) {
     { type: "idle" },
 ]),
 	(BonziData.event_list_joke2 = [
-    { type: "add_random", pool: "event_list_joke2_open", add: BonziData.event_list_joke_open },
+    { type: "add_random", pool: "event_list_joke2_open", add: BonziData.event_list_joke2_open },
     { type: "anim", anim: "shrug_fwd", ticks: 15 },
-    { type: "add_random", pool: "event_list_joke2_mid", add: BonziData.event_list_joke_mid },
+    { type: "add_random", pool: "event_list_joke2_mid", add: BonziData.event_list_joke2_mid },
     { type: "idle" },
-    { type: "add_random", pool: "event_list_joke2_end", add: BonziData.event_list_joke_end },
+    { type: "add_random", pool: "event_list_joke2_end", add: BonziData.event_list_joke2_end },
     { type: "idle" },
 ]),
     (BonziData.event_list_fact = [
