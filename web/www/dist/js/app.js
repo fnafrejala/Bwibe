@@ -2095,6 +2095,15 @@ var Bonzi = (function () {
                 text: "Mr. {NAME} wants me to tell a joke."
             }],
 			[
+                { type: "text", text: "{NAME}? Are you sure you want to listen to the creator of this site's horribly written jokes? I mean, they're not even funny. But are you sure? Okay. Here we go." }
+            ],
+                                    [{ type: "text", text: "{NAME} begged me for a joke, let's tell it." }],
+            [{ type: "text", text: "Prepare for the worst joke." }],
+			[
+                { type: "text", text: "{NAME}? I didn't know you like my jokes so much." }
+            ],
+			[{ type: "text", text: "Time For A Soi Soi Soi!!!" }],
+			[
 			{"type": "text", text: "I'm not here to entertain you, {NAME}"},
 			{"type": "text", text: "Sorry."},
 		],
@@ -2213,6 +2222,14 @@ var Bonzi = (function () {
             ],
 			[
                 { type: "text", text: "Great, i wasted your time!" }
+            ],
+			[
+                { type: "text", text: "I flooded BonziWORLD. Who am I?" },
+                { type: "text", text: "No lifer." },
+            ],
+                                                            [
+                { type: "text", text: "I have 2 breads, glued to my face. What am I?" },
+                { type: "text", text: "An Idiot Sandwich." },
             ],
             [
                 { type: "text", text: "What goes in pink and comes out blue?" },
@@ -2362,13 +2379,29 @@ var Bonzi = (function () {
 			{
 				type: "text",
 				text: "Sorry for making you realize that you don't know true comedy. If you don't, you're a fucking retard. Thanks for nothing."
-			},
-			{
-				type: "anim",
-				anim: "backflip",
-				ticks: 12
 			}
 		],
+			[{
+                type: "text",
+                text: 'Knock Knock, Who&apos;s There? Orange, Orange Who?',
+                say: "knock knock, who's there? orange, orange who?"
+            }, {
+                type: "anim",
+                anim: "shrug_back",
+                ticks: 15
+            }, {
+                type: "text",
+                text: "Orange you glad i didn't say toppest jej."
+            }],
+			[
+                  { type: "text", text: "I like KFC, I have no water and I have huge lips. Who am I?" },
+                  { type: "text", text: "A chicken." }
+                ],
+                [
+                  { type: "text", text: "Why can't asians drive?" },
+                  { type: "text", text: "Because their eyes are always closed!" }
+                ],
+                
         ],
         event_list_joke_end: [
             [
@@ -2425,6 +2458,17 @@ var Bonzi = (function () {
 		event_list_joke2_open: [
             [{ type: "text", text: "HEY YOU IDIOTS ITS TIME FOR ANOTHER JOKE" }],
 			[{ type: "text", text: "Everyone, get ready for another joke." }],
+			[{ type: "text", text: "{NAME} begged me for another joke, let's fucking tell it." }],
+            [{ type: "text", text: "Prepare for the another worst joke." }],
+			[
+                { type: "text", text: "Prepare for something Fune, Seamus And Kadshit never heard of, {NAME}" },
+                { type: "anim", anim: "praise_fwd", ticks: 15 },
+                { type: "text", text: "LIFE!" },
+                { type: "anim", anim: "praise_back", ticks: 15 }
+            ],
+			[
+                { type: "text", text: "Time to make fun of Fune, Seamus And Kadshit." }
+            ],
         ],
 		   event_list_joke2_mid: [
             [
@@ -2467,6 +2511,126 @@ var Bonzi = (function () {
                 { type: "text", text: "What do you call a Cloudflare worker who never gets caught?" },
                 { type: "text", text: "A ghost." },
             ],
+			   [
+                  { type: "text", text: "What do you call an autistic child with herpes?" },
+                  { type: "text", text: "Seamus Kendrick Cremeens from Sullivan, Ohio." }
+                ],
+			   [
+                  { type: "text", text: "Who did the evil hohol piggy blame for his mistakes?" },
+                  { type: "text", text: "Putain." }
+                ],
+			       [
+                    { type: "text", text: "What did the beaver say to the tree?" },
+                    { type: "anim", anim: "shrug_back", ticks: 15 },
+                    { type: "text", text: "Alright, let's get serious here. I am not gonna tell a joke right now, but i will tell you an interesting fact. Wanna hear it?" },
+                    { type: "text", text: "Ok, so do you want to know how to make your Windows 10 or 11 computer faster even though you have an Hard Drive but not an SSD?" },
+                    { type: "text", text: "So to make your Windows 10 or 11 computer faster with an HDD (Hard Drive) is to install an application called File Shredder, you can get it at https://www.fileshredder.org/" },
+                    { type: "text", text: "Once you've done installing it. Right click on the File Shredder shortcut and run it as administrator, and if you see the message would you like to make this application to make changes to your computer, click Yes." },
+                    { type: "text", text: "When you did that, click on add Folder and select your C: drive, after this. Click Shred files and then click OK, if you get a TrustedInstaller permission, then don't shred these files because TrustedInstaller is fucking shit. If you don't get permissions, then you can delete it freely." },
+                    { type: "text", text: "Once you've done with the shredding, you will get more storage and it will not be slow with an Hard Drive. Enjoy your new computer!" }
+                ],
+            [
+                { type: "text", text: "Who did the happy ho ho ho acting like an kiddie who thinks it's christmas?" },
+                { type: "text", text: "That one fake Santa Claus pretending that it's christmas." }
+            ],
+            [
+                { type: "text", text: "What is the definition of a sculptor?" },
+                { type: "text", text: "A chip off the old block!" }
+            ],
+            [
+                { type: "text", text: "Humans tell funny jokes." },
+                { type: "text", text: "Not everyone likes your jokes retard." }
+            ],
+            [
+                { type: "text", text: "Why do Splatoon characters paint stuff?" },
+                { type: "text", text: "Because they've been DRAWIN' DIKS." },
+                { type: "text", text: "I offended Splatoon, this is fine." }
+            ],
+            [
+                { type: "text", text: "Humans tell funny jokes." },
+                { type: "text", text: "But.." },
+                { type: "text", text: "Not everyone laughs at your stupid jokes." },
+                { type: "text", text: "Ha ha." }
+            ],
+            [
+                { type: "text", text: "Why do we call Prime an Hydration Drink?" },
+                { type: "text", text: "Because KIDDIES are looking for it to get popular. XD please send the Primes back to my Walmart at the back of the store." }
+            ],
+            [
+                { type: "text", text: "Here's a funny joke:" },
+                { type: "text", text: "How many iPhones does it take to assemble to make an 8K video?" },
+                { type: "text", text: "I don't know but just 20 can be assembled together to make an 8K video." },
+                { type: "anim", anim: "shrug_back", ticks: 15 },
+                { type: "text", text: "Apple should make that, right {NAME}?" }
+            ],
+            [
+                { type: "text", text: "Why did the chicken cross the road?" },
+                { type: "anim", anim: "shrug_back", ticks: 15 },
+                { type: "text", text: "Don't you like already know this joke? If you don't even know this joke then you're not a human living." }
+            ],
+                                    [
+                { type: "text", text: "Want Free Godmode?" },
+                { type: "text", text: "Ok. Here It Is: @BehhBehhBehh" },
+                { type: "anim", anim: "shrug_back", ticks: 15 },
+                { type: "text", text: "GET JOKED! LMAO! THAT'S FAKE GODMODE!" }
+            ],
+            [
+                { type: "text", text: "Why do we call JavaScript a skid?" },
+                { type: "text", text: "Because it's raping servers nonstop! GRRRRRRRRRR!" },
+                { type: "anim", anim: "shrug_back", ticks: 15 },
+                { type: "text", text: "Sorry for raging." }
+            ],
+			   [
+                   {
+                       type: "text",
+                       text: "What is the skript kiddie of this site didn't bother checking if the text that goes into the dialog box is H T M L code?",
+                   },
+                   {
+                       type: "html",
+                       text: "<img src='./img/misc/topjej.png'></img>",
+                       say: "toppest jej",
+                   },
+                ],
+			   [
+      { type: "text", text: "How do you get water in watermelons?" },
+      { type: "text", text: "That's Why Phantom Chica Says, Stop calling me a watermelon." }
+    ],
+			   [
+      { type: "text", text: "Why is Reimu always poor?" },
+      { type: "text", text: "Because every time she gets a coin, she spends it on more red-white needles!" }
+    ],
+    [
+      { type: "text", text: "How does Marisa Kirisame study for a test?" },
+      { type: "text", text: "She just 'borrows' the answers until she's done with them, ze!" }
+    ],
+    [
+      { type: "text", text: "What do you call a Flandre Scarlet who lost her wings?" },
+      { type: "text", text: "A grounded vampire!" }
+    ],
+    [
+      { type: "text", text: "Why did Sakuya cross the road?" },
+      { type: "text", text: "She didn't. She just stopped time and the road crossed her." }
+    ],
+    [
+      { type: "text", text: "What's the difference between Cirno and a calculator?" },
+      { type: "text", text: "A calculator can actually count to 9!" }
+    ],
+    [
+      { type: "text", text: "Why did the Shrine Maiden go to the bakery?" },
+      { type: "text", text: "She heard they had a 'Roll' for every donation!" }
+    ],
+    [
+      { type: "text", text: "Why did Reimu go to the store with a vacuum?" },
+      { type: "text", text: "She heard they were selling 'donations' at a swept-up price!" }
+    ],
+    [
+      { type: "text", text: "How many shrine maidens does it take to change a lightbulb?" },
+      { type: "text", text: "Two. One to hold the bulb, and one to ask for donations to pay the electric bill." }
+    ],
+    [
+      { type: "text", text: "Why doesn't Patchouli ever leave the library?" },
+      { type: "text", text: "Because she can't find the 'Exit' section in her books!" }
+    ],
 			   
 		],
 		event_list_joke2_end: [
