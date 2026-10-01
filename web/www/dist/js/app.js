@@ -900,7 +900,7 @@ var Bonzi = (function () {
                     value: function () {
                         this.runSingleEvent(this.data.event_list_joke2);
                     },
-                }
+                },
                 {
                     key: "behh",
                     value: function () {
