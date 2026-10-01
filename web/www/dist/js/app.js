@@ -896,6 +896,12 @@ var Bonzi = (function () {
                     },
                 },
                 {
+                    key: "joke2",
+                    value: function () {
+                        this.runSingleEvent(this.data.event_list_joke2);
+                    },
+                }
+                {
                     key: "behh",
                     value: function () {
                         this.runSingleEvent(this.data.event_list_behh);
@@ -2416,6 +2422,62 @@ var Bonzi = (function () {
 			}
 		],
         ],
+		event_list_joke2_open: [
+            [{ type: "text", text: "HEY YOU IDIOTS ITS TIME FOR ANOTHER JOKE" }],
+			[{ type: "text", text: "Everyone, get ready for another joke." }],
+        ],
+		   event_list_joke2_mid: [
+            [
+                { type: "text", text: "What is easy to get into, but hard to get out of?" },
+                { type: "text", text: "Child support!" },
+            ],
+            [
+                { type: "text", text: "Why did the scarecrow win an award?" },
+                { type: "text", text: "Because he was outstanding in his field." },
+            ],
+            [
+                { type: "text", text: "What did bush get replaced with?" },
+                { type: "text", text: "□." },
+            ],
+            [
+                { type: "text", text: "What do you call fake spaghetti?" },
+                { type: "text", text: "SNOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRTTTT!" },
+            ],
+            [
+                { type: "text", text: "I used to be addicted to the hokey pokey" },
+                { type: "text", text: "but then I turned myself around." },
+            ],
+			[
+                { type: "text", text: "Why don't skeletons fight each other?" },
+                { type: "text", text: "Hey {NAME} guess what? you're a stupid bitch! you're a stupid fucking bitch! how dumb you are..." },
+            ],
+            [
+                { type: "text", text: "What do you call cheese that isn't yours?" },
+                { type: "text", text: "Nacho cheese." },
+            ],
+			[
+                { type: "text", text: "Why do tax collectors break their pencils?" },
+                { type: "text", text: "Because they're tired of writing IOUs." },
+            ],
+			[
+                { type: "text", text: "What do you call a group of musical Cloudflare workers?" },
+                { type: "text", text: "A walled garden." },
+            ],
+			[
+                { type: "text", text: "Why did the Cloudflare worker bring a ladder to work?" },
+                { type: "text", text: "Because they wanted to raise the bar." },
+            ],
+			[
+                { type: "text", text: "What do you call a Cloudflare worker who never gets caught?" },
+                { type: "text", text: "A ghost." },
+            ],
+			   
+		],
+		event_list_joke2_end: [
+			
+          [{type: "text", text: "i made those jokes like 743287813428741327714970503291 years ago."}],
+        ],
+		
         event_list_fact_open: [ 
 			[{ type: "html", text: "Hey kids, it's time for a Fun Fact&reg;!", say: "Hey kids, it's time for a Fun Fact!" }],
 			[{ type: "text", text: "Did you type /fact? {NAME} did." }],
@@ -2729,6 +2791,14 @@ function linkify(text) {
     { type: "add_random", pool: "event_list_joke_end", add: BonziData.event_list_joke_end },
     { type: "idle" },
 ]),
+	(BonziData.event_list_joke2 = [
+    { type: "add_random", pool: "event_list_joke2_open", add: BonziData.event_list_joke_open },
+    { type: "anim", anim: "shrug_fwd", ticks: 15 },
+    { type: "add_random", pool: "event_list_joke2_mid", add: BonziData.event_list_joke_mid },
+    { type: "idle" },
+    { type: "add_random", pool: "event_list_joke2_end", add: BonziData.event_list_joke_end },
+    { type: "idle" },
+]),
     (BonziData.event_list_fact = [
         { type: "add_random", pool: "event_list_fact_open", add: BonziData.event_list_fact_open },
         { type: "add_random", pool: "event_list_fact_mid", add: BonziData.event_list_fact_mid },
@@ -2742,6 +2812,20 @@ function linkify(text) {
         { type: "idle" },
         { type: "add_random", pool: "event_list_fact_end", add: BonziData.event_list_behhfact_end },
         { type: "idle" },
+    ]),
+	    (BonziData.event_list_bosnia = [
+       	{ type: "text", text: "I am from Bosnia, take me to America" },
+	{ type: "text", text: "I really want to see Statue of Liberty", },
+	{ type: "text", text: "I can no longer wait, take me to United States", },
+	{ type: "text", text: "Take me to Golden Gate, I will assimilate", },
+	{ type: "text", text: "The grass is always greener in neighbour's courtyard", },
+	{ type: "text", text: "I wish to leave this nightmare, go to the promised land", },
+	{ type: "text", text: "Please, take me to your leader, I want my green card", },
+	{ type: "text", text: "I want to fly over like a rocket from the Balkans", },
+	{ type: "text", text: "I want to start all over, and turn a new page", },
+	{ type: "text", text: "Forget this dreadful story, escape the Stone Age", },
+	{ type: "text", text: "I'm waiting for a chance to get out of the cage", },
+	{ type: "text", text: "I feel like a slave on a minimal wage", },
     ]),
     (BonziData.event_list_linux = [
         { type: "text", text: "I'd just like to interject for a moment. What you’re referring to as Linux, is in fact, BONZI/Linux, or as I’ve recently taken to calling it, BONZI plus Linux." },
