@@ -2428,10 +2428,6 @@ var Bonzi = (function () {
         ],
 		   event_list_joke2_mid: [
             [
-                { type: "text", text: "What is easy to get into, but hard to get out of?" },
-                { type: "text", text: "Child support!" },
-            ],
-            [
                 { type: "text", text: "Why did the scarecrow win an award?" },
                 { type: "text", text: "Because he was outstanding in his field." },
             ],
