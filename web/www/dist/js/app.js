@@ -3343,7 +3343,8 @@ function login() {
 	Bonzi_Name = $("#login_name").val() || "Anonymous";
 	var login_sfx = new Audio("./sfx/logon.wav");
 	var ab_logon_sfx = new Audio("./sfx/ab_logon.wav");
-	ab_logon_sfx.play();
+	var vcast_sfx = new Audio("./sfx/VCast.wav");
+	vcast_sfx.play();
     setTimeout(function () {socket.emit("login", { name: $("#login_name").val(), room: $("#login_room").val() }), bzSetup()}, 954);
 	if ($("#login_room").val().includes("test")) debug = true;
 	if ($("#login_room").val().includes("debug")) debug = true;
